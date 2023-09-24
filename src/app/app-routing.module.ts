@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DriverComponent } from './driver/driver.component';
 import { HomeComponent } from './home/home.component';
+import { DriversComponent } from './drivers/drivers.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
-  { path: "drivers", component: DriverComponent }
+  { path: "drivers", component: DriversComponent }
 ];
 
 @NgModule({
